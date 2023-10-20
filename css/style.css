@@ -7,12 +7,121 @@
 }
 p{
     font-size: 20px;
+    color: white;
 }
 header,footer{
-    background-image: linear-gradient(to right, rgb(0, 136, 255),pink);
+    background-image: linear-gradient(to right, rgb(3, 4, 5),rgba(0, 0, 0, 0.571));
+    color: white;
+    margin: 0;
 }
 body{
+    background: url("https://i.postimg.cc/yd1vdyZX/pexels-photo-2514035.jpg") no-repeat;
+    background-size: 100%;
+    background-blend-mode: luminosity;
+    height: 100vh;
+} 
+
+.navbar{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: right;
+    font-size: 25px;
+    word-spacing: 25px;
+    color: white;
+    cursor: pointer;
+}
+
+#Home{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: auto;
+    color: white;
     text-align: center;
-    display: grid;
-    grid-template-rows: repeat auto 100vw auto;
+    height: 80vh;
+}
+.header {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo {
+    font-size: 32px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+.navbar a {
+    position: relative;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 30px;
+    justify-content: space-between;
+}
+.navbar a::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: .4s;
+}
+.navbar a:hover:before{
+    width: 100%;
+}
+
+#item{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    
+}
+.im1{
+    display: flex;
+     width: 25%;
+     height: 25%;
+     margin-left: 50px;
+     margin-top: -250px;
+     justify-content: space-evenly;
+     text-align: center;
+     padding: auto;
+     border-top-left-radius: 10px;
+     border-bottom-right-radius: 20px;
+     border-top-right-radius: 10px;
+     border-bottom-left-radius: 20px;
+     flex-direction: row;
+     
+} 
+.im2{
+    display: flex;
+    margin-right: 50px;
+    margin-top: -250px;
+     width: 21.5%;
+     height: 25%;
+     justify-content: space-evenly;
+     border-top-left-radius: 10px;
+     border-bottom-right-radius: 20px;
+     border-top-right-radius: 10px;
+     border-bottom-left-radius: 20px;
+     flex-direction: row;
+     align-items: right;
+     
+}
+#feet{
+    margin: 0;
+    padding: 6px;
+}
+#intro{
+    text-align: center;
+    
+    
 }
