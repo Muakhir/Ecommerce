@@ -15,7 +15,7 @@ header,footer{
     margin: 0;
 }
 body{
-    background: url("https://i.postimg.cc/yd1vdyZX/pexels-photo-2514035.jpg") no-repeat;
+    background: url("https://i.postimg.cc/xTQ1yX4p/black-red-abstract-background-79603-1550.jpg");
     background-size: 100%;
     background-blend-mode: luminosity;
     height: 100vh;
@@ -38,13 +38,14 @@ body{
     color: white;
     text-align: center;
     height: 80vh;
+    margin-top: 100px;
 }
 .header {
-    position: relative;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    background: black;
+    background-image: linear-gradient(to right, rgb(3, 4, 5),rgba(0, 0, 0, 0.571));
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -93,7 +94,6 @@ body{
      margin-top: -250px;
      justify-content: space-evenly;
      text-align: center;
-     padding: auto;
      border-top-left-radius: 10px;
      border-bottom-right-radius: 20px;
      border-top-right-radius: 10px;
@@ -107,13 +107,13 @@ body{
     margin-top: -250px;
      width: 21.5%;
      height: 25%;
+     text-align: center;
      justify-content: space-evenly;
      border-top-left-radius: 10px;
      border-bottom-right-radius: 20px;
      border-top-right-radius: 10px;
      border-bottom-left-radius: 20px;
      flex-direction: row;
-     align-items: right;
      
 }
 #feet{
@@ -125,8 +125,120 @@ body{
     margin-top: 100px;
 }
 #black{
-   
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    border-top-left-radius: 50px;
+     border-bottom-right-radius: 30px;
+     border-top-right-radius: 30px;
+     border-bottom-left-radius: 50px;
 }
+
 .pim1 img{
-  
+    background-size: contain;
+    display: flex;
+    width: 300px;
+    height: 350px;
+    margin-top: 70px;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-direction: row;
+    justify-items: center;
+    position: relative;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 50px;
 }
+.pim2 img{
+    background-size: contain;
+    display: flex;
+    width: 300px;
+    height: 350px;
+    margin-top: 70px;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-direction: row;
+    justify-items: center;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 50px;
+}
+.container{
+    color: #fff;
+    margin-top: 100px;
+}
+#kicks{
+        display: flex;
+        position: absolute;
+        justify-content: space-between;
+        flex-direction: row;
+        width: 250px;
+        height: 300px;
+}
+.pimm1 img{
+    background-size: contain;
+    position: relative;
+    display: flex;
+    width: 300px;
+    height: 350px;
+    margin-top: 70px;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-direction: column;
+    justify-items: center;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 40px;
+    margin-left: 70px;
+}
+.pimm2 img{
+    background-size: contain;
+    position: relative;
+    display: flex;
+    width: 300px;
+    height: 350px;
+    margin-top: 70px;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-direction: column;
+    justify-items: center;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 40px;
+    margin-left: 70px;
+}
+.pim1:hover{
+    scale: 105%;
+    border-color: rgb(240, 231, 231);
+}
+.pim2:hover{
+    scale: 105%;
+    border-color: rgb(240, 231, 231);
+}
+.pimm1:hover{
+    scale: 103%;
+    border-color: rgb(240, 231, 231);
+}
+.pimm2:hover{
+    scale: 103%;
+    border-color: rgb(240, 231, 231);
+}
+.ceader{
+    text-align: center;
+    justify-content: baseline;
+}
+.cain{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    margin-top: 150px;
+    color: #fff;
+    font-size: 27px;
+}
+
+
